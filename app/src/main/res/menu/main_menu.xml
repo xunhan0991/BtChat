@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+
+    <!--一直显示的菜单项，将根据连接的状态变化显示的标题-->
+    <item android:id="@+id/connect_menu"
+        android:title="1"
+        apps:showAsAction="always"/>
+
+    <!--启动关于界面的菜单项-->
+    <item android:id="@+id/about_menu"
+        android:title="2"
+        apps:showAsAction="never"/>
+
+</menu>
